@@ -41,11 +41,60 @@ body{
     color: tomato;
     cursor: pointer;
 }
+.hamberger{
+    display: none;
+}
 
 
 
 
 
 
+/* for medium device */
 
-/*  */
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+
+    body{
+        font-family: 'Mulish', sans-serif;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+  .nav{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}  
+}
+/* for small device */
+
+@media screen and (max-width: 426px){
+
+    body{
+        font-family: 'Mulish', sans-serif;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+  .nav{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+} 
+.hamberger{
+    display: flex;
+    align-items: center;
+} 
+.nav-link{
+    display: none;
+    
+}
+.nav-logo{
+    
+    font-size: 20px;
+
+}
+.radiance-logo{
+    width: 30px;
+    height: 30px;
+}
+}
