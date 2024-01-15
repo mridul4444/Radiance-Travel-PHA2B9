@@ -45,7 +45,52 @@ body{
     display: none;
 }
 
+/* section1 */
 
+
+.bgimage{
+    width: 1360px;
+    height: 600px;
+background-image: url(./Images/Group\ 13\ \(1\)\ \(1\).png);    
+background-repeat: no-repeat;
+border-radius: 16px;
+justify-content: center;
+position: relative;
+margin-top: 50px;
+background-size: cover;
+
+
+}
+
+.small-title{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.big-title{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+width: 600px;
+margin: auto;
+}
+.overlay{
+    padding-top: 150px;
+    z-index: 50px;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    height: 75%;
+    border-radius: 16px;
+
+}   
 
 
 
