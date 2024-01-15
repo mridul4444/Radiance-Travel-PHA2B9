@@ -5,4 +5,47 @@
 }
 body{
     font-family: 'Mulish', sans-serif;
+    padding-left: 45px;
+    padding-right: 45px;
 }
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+.t-colour{
+    color: tomato;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+.radiance-logo{
+    width: 50px;
+    height: 35px;
+}
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+
+}
+.nav-link li:hover{
+    color: tomato;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/*  */
