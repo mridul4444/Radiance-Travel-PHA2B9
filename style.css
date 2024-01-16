@@ -95,6 +95,45 @@ margin: auto;
 
 
 
+
+
+
+/* section2 */
+.section2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin-top: 120px;
+    margin-left: 10px;
+    font-weight: 400px;
+}
+.section2h1{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: none;
+    align-items: top left;
+    margin-top: none;
+}
+.ullist{
+    padding-left: 15px;
+}
+.readmore-but{
+    background-color: orangered;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #FFF;
+}
+
+
+.sec2-img{
+    width: 500px;
+}
+
+
+
 /* for medium device */
 
 
