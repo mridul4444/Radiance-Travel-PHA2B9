@@ -133,6 +133,148 @@ margin: auto;
 }
 
 
+/* section 3 */
+
+.section3{
+    margin-top: 100px;
+}
+.sec3-text{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    font-weight: bolder;
+    
+}
+.sec3-p{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 400px;
+    padding-left: 300px;
+    padding-right: 300px;
+
+}
+.sec3-p2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: -10px;
+
+}
+
+/* section 4 */
+.section4{
+    margin-top: 100px;
+}
+
+
+.sec4-h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+.sec4-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 350px;
+    padding-right: 350px;
+    
+}
+.sec4-p2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 350px;
+    padding-right: 350px;
+    
+
+}
+
+.section-d{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 100px;
+
+    
+}
+
+.sec-part{
+    width: 600px;
+    height: 300px;
+    padding: 30px;
+    padding-top: 50px;
+    
+
+}
+
+#sec-part1{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    
+
+}
+
+
+.section-dp1{
+    width: 60px;
+    height: 60px;
+
+}
+.section-d1t{
+    font-size: 38px;
+    padding-bottom: 10px;
+
+
+}
+
+#sec-part2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.section-d2p{
+    width: 70px;
+    height: 70px;
+
+}
+.section-d2t{
+    font-size: 38px;
+    padding-bottom: 10px;
+
+}
+
+#sec-part3{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    
+}
+
+
+.section-d3p{
+    width: 50px;
+    height: 50px;
+
+}
+.section-d3t{
+    font-size: 38px;
+
+}
+
+
+
 
 /* for medium device */
 
